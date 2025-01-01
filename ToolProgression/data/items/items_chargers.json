@@ -1,0 +1,204 @@
+[
+    {
+    "strName": "ItmChargerBattElahi01",
+    "strImg": "ItmChargerBattElahi01",
+    "strImgNorm": "ItmChargerBattElahi01n",
+    "fZScale": 0.2,
+    "nCols": 2,
+    "aSocketAdds"    : [
+      "TILFixtureAdds", "TILFixtureAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILObstruction", "TILObstruction", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILFloor", "TILFloor","Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ]
+  },
+      {
+    "strName": "ItmChargerBattElahi01Full",
+    "strImg": "ItmChargerBattElahi01",
+    "strImgNorm": "ItmChargerBattElahi01n",
+    "fZScale": 0.2,
+    "nCols": 2,
+    "aSocketAdds"    : [
+      "TILFixtureAdds", "TILFixtureAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILObstruction", "TILObstruction", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILFloor", "TILFloor","Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ]
+  },
+        {
+    "strName": "ItmChargerBattElahi01Loose",
+    "strImg": "ItmChargerBattElahi01Loose",
+    "strImgNorm": "ItmChargerBattElahi01Loosen",
+    "fZScale": 0.2,
+    "nCols": 2,
+    "aSocketAdds": [
+	"TILItemAdds","TILItemAdds"
+	],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ]
+  },
+        {
+    "strName": "ItmChargerBattElahi01FullLoose",
+    "strImg": "ItmChargerBattElahi01FullLoose",
+    "strImgNorm": "ItmChargerBattElahi01FullLoosen",
+    "fZScale": 0.2,
+    "nCols": 2,
+    "aSocketAdds": [
+	"TILItemAdds","TILItemAdds"
+	],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ]
+    },
+	
+        {
+    "strName": "ItmChargerBattElahi01Off",
+    "strImg": "ItmChargerBattElahi01Off",
+    "strImgNorm": "ItmChargerBattElahi01Offn",
+    "fZScale": 0.2,
+    "nCols": 2,
+    "aSocketAdds"    : [
+      "TILFixtureAdds", "TILFixtureAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILObstruction", "TILObstruction", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILFloor", "TILFloor","Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ]
+  },
+        {
+    "strName": "ItmChargerBattElahi01FullOff",
+    "strImg": "ItmChargerBattElahi01FullOff",
+    "strImgNorm": "ItmChargerBattElahi01FullOffn",
+    "fZScale": 0.2,
+    "nCols": 2,
+    "aSocketAdds"    : [
+      "TILFixtureAdds", "TILFixtureAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILObstruction", "TILObstruction", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILFloor", "TILFloor","Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ]
+  },
+     {
+    "strName": "ItmChargerBattElahi01DmgLoose",
+    "strImg": "ItmChargerBattElahi01DmgLoose",
+    "strImgNorm": "ItmChargerBattElahi01DmgLoosen",
+    "fZScale": 0.2,
+    "nCols": 2,
+    "aSocketAdds": [
+	"TILItemAdds","TILItemAdds"
+	],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ]
+  },
+  
+     {
+    "strName": "ItmChargerBattElahi01FullDmgLoose",
+    "strImg": "ItmChargerBattElahi01FullDmgLoose",
+    "strImgNorm": "ItmChargerBattElahi01FullDmgLoosen",
+    "fZScale": 0.2,
+    "nCols": 2,
+    "aSocketAdds": [
+	"TILItemAdds","TILItemAdds"
+	],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ]
+  },
+          {
+    "strName": "ItmChargerBattElahi01Dmg",
+    "strImg": "ItmChargerBattElahi01Dmg",
+    "strImgNorm": "ItmChargerBattElahi01Dmgn",
+    "fZScale": 0.2,
+    "nCols": 2,
+    "aSocketAdds"    : [
+      "TILFixtureAdds", "TILFixtureAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILObstruction", "TILObstruction", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILFloor", "TILFloor","Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ]
+  },
+        {
+    "strName": "ItmChargerBattElahi01FullDmg",
+    "strImg": "ItmChargerBattElahi01FullDmg",
+    "strImgNorm": "ItmChargerBattElahi01FullDmgn",
+    "fZScale": 0.2,
+    "nCols": 2,
+    "aSocketAdds"    : [
+      "TILFixtureAdds", "TILFixtureAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILObstruction", "TILObstruction", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILFloor", "TILFloor","Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ]
+  }
+  ]

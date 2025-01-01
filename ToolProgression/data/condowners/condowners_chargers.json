@@ -1,0 +1,245 @@
+[
+  {
+    "strName" : "ItmChargerBattElahi01",
+    "strNameShort" : "Battery Charger",
+    "strNameFriendly" : "Battery Charging Station: Elahi Precision Systems",
+    "strItemDef" : "ItmChargerBattElahi01",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "Inventory"
+    ],
+    "aStartingConds" : [
+      "IsElahi=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsChargerElahi=1.0x1",
+      "IsPowered=1.0x1",
+      "IsRechargingContainer=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsReadyHeat=1.0x1",
+      "StatHeatArea=1.0x0.5",
+      "StatHeatVol=1.0x0.05", 
+      "StatSolidTemp=1.0x310",
+      "StatBasePrice=1.0x786.0",
+      "StatDismantleProgressMax=1.0x220",
+      "StatInstallProgressMax=1.0x300",
+      "StatUninstallProgressMax=1.0x300",
+      "StatMass=1.0x25.0",
+      "StatDamageMax=1.0x6",
+      "IsTechnology=1.0x1",
+      "IsCategoryElectronics=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "strContainerCT"    : "TIsFitContainerElahi01Battery",
+    "nContainerHeight"   : 2,
+    "nContainerWidth"   : 4,
+    "mapAltItemDefs"  : [
+      "IsBatteryElahi01","ItmChargerBattElahi01Full"
+    ],
+    "mapPoints"      : [
+      "use,0,16",
+      "PowerSource,-8,-16"
+    ],
+    "aUpdateCommands" : [
+      "Heater,TIsAirtightNoHuman",
+      "Destructable,StatDamage,ACTChargerBattElahi01Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [      
+      "Panel A",
+      "HeaterItemGeneric",
+      "Electrical"
+    ],
+    "aTickers" : [ 
+      "Power"
+    ],
+    "strPortraitImg"  : "ItmChargerBattElahi01",
+    "jsonPI"            : "ChargerElahi01",
+    "strAudioEmitter": "ItmChargerBattEVASound"
+  },
+  {
+    "strName" : "ItmChargerBattElahi01Loose",
+    "strNameShort" : "Battery Charger",
+    "strNameFriendly" : "Battery Charging Station: Elahi Precision Systems (Loose)",
+    "strItemDef" : "ItmChargerBattElahi01Loose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "Inventory",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsElahi=1.0x1",
+      "IsChargerElahi=1.0x1",
+      "IsOff=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1",
+      "StatBasePrice=1.0x786.0",
+      "StatDismantleProgressMax=1.0x220",
+      "StatInstallProgressMax=1.0x300",
+      "StatMass=1.0x25.0",
+      "StatDamageMax=1.0x6",
+      "IsTechnology=1.0x1",
+      "IsCategoryElectronics=1.0x1"
+    ],
+    "strContainerCT"    : "TIsFitContainerElahi01Battery",
+    "nContainerHeight"   : 2,
+    "nContainerWidth"   : 4,
+    "mapAltItemDefs"  : [
+      "IsBatteryElahi01","ItmChargerBattElahi01FullLoose"
+    ],
+    "mapPoints"      : [
+      "use,0,16"
+    ],
+    "mapSlotEffects" : [    
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTChargerBattElahi01LooseDamage,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmChargerBattElahi01Loose"
+  },
+  {
+    "strName" : "ItmChargerBattElahi01Off",
+    "strNameShort" : "Battery Charger",
+    "strNameFriendly" : "Battery Charging Station: Elahi Precision Systems (Off)",
+    "strItemDef" : "ItmChargerBattElahi01Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "Inventory"
+    ],
+    "aStartingConds" : [
+      "IsElahi=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsChargerElahi=1.0x1",
+      "IsOff=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x786.0",
+      "StatDismantleProgressMax=1.0x220",
+      "StatInstallProgressMax=1.0x300",
+      "StatUninstallProgressMax=1.0x300",
+      "StatMass=1.0x25.0",
+      "StatDamageMax=1.0x6",
+      "IsTechnology=1.0x1",
+      "IsCategoryElectronics=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "strContainerCT"    : "TIsFitContainerElahi01Battery",
+    "nContainerHeight"   : 2,
+    "nContainerWidth"   : 4,
+    "mapAltItemDefs"  : [
+      "IsBatteryElahi01","ItmChargerBattElahi01FullOff",
+	  "Electrical,Electrical"
+    ],
+    "mapPoints"      : [
+      "use,0,16",
+      "PowerSource,-8,-16"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTChargerBattElahi01Damage,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aTickers" : [ 
+      "Power"
+    ],
+    "strPortraitImg"  : "ItmChargerBattElahi01",
+    "jsonPI"            : "ChargerElahi01",
+    "strAudioEmitter": "ItmChargerBattEVASound"
+  },
+  {
+    "strName" : "ItmChargerBattElahi01DmgLoose",
+    "strNameShort" : "Battery Charger",
+    "strNameFriendly" : "Battery Charging Station: Elahi Precision Systems (Loose, Damaged)",
+    "strItemDef" : "ItmChargerBattElahi01DmgLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "Inventory",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsElahi=1.0x1",
+      "IsChargerElahi=1.0x1",
+      "IsDamaged=1.0x1",
+      "IsOff=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1",
+      "StatBasePrice=1.0x157.0",
+      "StatDismantleProgressMax=1.0x220",
+      "StatInstallProgressMax=1.0x300",
+      "StatMass=1.0x25.0",
+      "StatDamageMax=1.0x19",
+      "IsTechnology=1.0x1",
+      "IsCategoryElectronics=1.0x1"
+    ],
+    "strContainerCT"    : "TIsFitContainerElahi01Battery",
+    "nContainerHeight"   : 2,
+    "nContainerWidth"   : 4,
+    "mapAltItemDefs"  : [
+      "IsBatteryElahi01","ItmChargerBattElahi01FullDmgLoose"
+    ],
+    "mapPoints"      : [
+      "use,0,16"
+    ],
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultL",
+      "heldR","HeldItmDefaultR",
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTChargerBattElahi01LooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmChargerBattElahi01DmgLoose"
+  },
+  {
+    "strName" : "ItmChargerBattElahi01Dmg",
+    "strNameShort" : "Battery Charger",
+    "strNameFriendly" : "Battery Charging Station: Elahi Precision Systems (Off)",
+    "strItemDef" : "ItmChargerBattElahi01Dmg",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "Inventory"
+    ],
+    "aStartingConds" : [
+      "IsElahi=1.0x1",
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsChargerElahi=1.0x1",
+      "IsOff=1.0x1",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x157.0",
+      "StatDismantleProgressMax=1.0x220",
+      "StatInstallProgressMax=1.0x300",
+      "StatUninstallProgressMax=1.0x300",
+      "StatMass=1.0x25.0",
+      "StatDamageMax=1.0x19",
+      "IsTechnology=1.0x1",
+      "IsCategoryElectronics=1.0x1"
+    ],
+    "strContainerCT"    : "TIsFitContainerElahi01Battery",
+    "nContainerHeight"   : 2,
+    "nContainerWidth"   : 4,
+    "mapAltItemDefs"  : [
+      "IsBatteryElahi01","ItmChargerBattElahi01FullDmg"
+    ],
+    "mapPoints"      : [
+      "use,0,16"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTChargerBattElahi01Destroy,StatDamageMax,1.0"
+    ],
+    "aTickers" : [ 
+    ],
+    "strPortraitImg"  : "ItmChargerBattElahi01Dmg"
+  }
+]

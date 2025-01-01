@@ -1,0 +1,114 @@
+[
+  {
+    "strName" : "ItmToolLighter01",
+    "aCOs"    : [
+      "ItmToolLighter01=1.0x1"
+    ],
+    "aLoots"  : [],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmToolWelderGott01",
+    "aCOs"    : [
+      "ItmToolWelderGott01=1.0x1"
+    ],
+    "aLoots"  : [],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmToolDrillHarv01",
+    "aCOs"    : [
+      "ItmToolDrillHarv01=1.0x1"
+    ],
+    "aLoots"  : [],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmToolGrinderHarv01",
+    "aCOs"    : [
+      "ItmToolGrinderHarv01=1.0x1"
+    ],
+    "aLoots"  : [],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmToolSolderingIronHarv01",
+    "aCOs"    : [
+      "ItmToolSolderingIronHarv01=1.0x1"
+    ],
+    "aLoots"  : [],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmToolWelderElahi01",
+    "aCOs"    : [
+      "ItmToolWelderElahi01=1.0x1"
+    ],
+    "aLoots"  : [],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmToolDrillElahi01",
+    "aCOs"    : [
+      "ItmToolDrillElahi01=1.0x1"
+    ],
+    "aLoots"  : [],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmToolGrinderElahi01",
+    "aCOs"    : [
+      "ItmToolGrinderElahi01=1.0x1"
+    ],
+    "aLoots"  : [],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmToolSolderingIronElahi01",
+    "aCOs"    : [
+      "ItmToolSolderingIronElahi01=1.0x1"
+    ],
+    "aLoots"  : [],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmBatteryElahi01",
+    "aCOs"    : [
+      "ItmBatteryElahi01=1.0x1"
+    ],
+    "aLoots"  : [],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmChargerBattElahi01Loose",
+    "aCOs"    : [
+      "ItmChargerBattElahi01Loose=1.0x1"
+    ],
+    "aLoots"  : [],
+    "strType" : "item"
+  },
+    {
+    "strName" : "ItmChargerBattElahi01LooseDmg",
+    "aCOs"    : [
+      "ItmChargerBattElahi01LooseDmg=1.0x1"
+    ],
+    "aLoots"  : [],
+    "strType" : "item"
+  },
+      {
+    "strName" : "ItmChargerBattElahi01",
+    "aCOs"    : [
+      "ItmChargerBattElahi01=1.0x1"
+    ],
+    "aLoots"  : [],
+    "strType" : "item"
+  },
+      {
+    "strName" : "ItmChargerBattElahi01Off",
+    "aCOs"    : [
+      "ItmChargerBattElahi01Off=1.0x1"
+    ],
+    "aLoots"  : [],
+    "strType" : "item"
+  }
+]

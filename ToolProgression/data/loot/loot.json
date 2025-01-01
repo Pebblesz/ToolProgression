@@ -1,0 +1,265 @@
+
+[
+  { "strName" : "ACTChargerBattElahi01Damage", "aCOs" : [ "MSChargerBattElahi01Damage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTChargerBattElahi01Destroy", "aCOs" : [ "MSChargerBattElahi01Destroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTChargerBattElahi01LooseDamage", "aCOs" : [ "MSChargerBattElahi01LooseDamage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTChargerBattElahi01LooseDestroy", "aCOs" : [ "MSChargerBattElahi01LooseDestroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+    
+    {
+      "strName" : "ItmSupplyKioskInv",
+      "aLoots"  : [
+        "--INS--1=",
+		"ItmToolLighter01=1.0x3-5",
+		
+		"--INS--11=",
+        "ItmToolWelderGott01New=1.0x1-2",
+		"--INS--12=",
+		"ItmToolDrillHarv01New=1.0x1-2",
+		"ItmToolGrinderHarv01New=1.0x1-2",
+		"ItmToolSolderingIronHarv01New=1.0x1-2",
+		"--INS--16=",
+		"ItmToolWelderElahi01New=1.0x1-2",
+		"ItmToolDrillElahi01New=1.0x1-2",
+		"ItmToolGrinderElahi01New=1.0x1-2",
+		"ItmToolSolderingIronElahi01New=1.0x1-2",
+		"ItmBatteryElahi01=1.0x2-4",
+		"--INS--19=",
+		"ItmChargerBattElahi01Loose=1.0x1"
+      ]
+    },
+	
+	  { "strName" : "ItmToolWelderGott01New", "aCOs" : [ "ItmToolWelderGott01=1.0x1", "ItmBatteryDrill01=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+	  { "strName" : "ItmToolDrillHarv01New", "aCOs" : [ "ItmToolDrillHarv01=1.0x1", "ItmBatteryWelder01=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+	  { "strName" : "ItmToolGrinderHarv01New", "aCOs" : [ "ItmToolGrinderHarv01=1.0x1", "ItmBatteryWelder01=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+	  { "strName" : "ItmToolSolderingIronHarv01New", "aCOs" : [ "ItmToolSolderingIronHarv01=1.0x1", "ItmBatteryWelder01=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+	  { "strName" : "ItmToolWelderElahi01New", "aCOs" : [ "ItmToolWelderElahi01=1.0x1", "ItmBatteryElahi01=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+	  { "strName" : "ItmToolDrillElahi01New", "aCOs" : [ "ItmToolDrillElahi01=1.0x1", "ItmBatteryElahi01=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+	  { "strName" : "ItmToolGrinderElahi01New", "aCOs" : [ "ItmToolGrinderElahi01=1.0x1", "ItmBatteryElahi01=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+	  { "strName" : "ItmToolSolderingIronElahi01New", "aCOs" : [ "ItmToolSolderingIronElahi01=1.0x1", "ItmBatteryElahi01=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+	  
+	  {
+    "strName" : "ItmOKLGSpareTutRoom",
+    "aCOs"    : [
+      "ItmWeaponKnife01=1.0x1"
+    ],
+    "aLoots"  : [
+	  "ItmToolLighter01=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  
+  { "strName" : "ItmMaintenanceTechStarterKit", "aCOs" : [ "ItmToolBox01=1.0x1" ], "aLoots" : [ "ItmMaintenanceTechStarterKitContents=1.0x1", "ItmMaintenanceTechStarterBagContents=1.0x1" ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+  { "strName" : "ItmMaintenanceTechStarterKitContents", "aCOs" : [  ], "aLoots" : [ "ItmToolScrewDriver01=1.0x1", "ItmToolHacksaw01=1.0x1", "ItmToolLighter01=1.0x1" ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+  { "strName" : "ItmMaintenanceTechStarterBag", "aCOs" : [ "ItmBackpack02=1.0x1" ], "aLoots" : [ "ItmMaintenanceTechStarterBagContents=1.0x1" ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+  { "strName" : "ItmMaintenanceTechStarterBagContents", "aCOs" : [  ], "aLoots" : [ "ItmToolScrewDriver01=1.0x1", "ItmToolHacksaw01=1.0x1", "ItmToolLighter01=1.0x1",  "ItmRandomFood=0.75x1-2", "ItmDrinkPouchNew=1.0x1", "ItmWristPDA01LockedUsed=1.0x1" ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+  { "strName" : "ItmShipbreakerStarterKit", "aCOs" : [ "ItmToolBox02=1.0x1" ], "aLoots" : [ "ItmShipbreakerStarterKitContents=1.0x1" ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+  { "strName" : "ItmShipbreakerStarterKitContents", "aCOs" : [  ], "aLoots" : [ "ItmToolScrewDriver01=1.0x1", "ItmToolHacksaw01=1.0x1", "ItmToolLighter01=1.0x1" ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+
+	  {
+    "strName" : "ACTLighterDamage",
+    "aCOs"    : [
+      "MSDamageLighter=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "interaction"
+  },
+		    {
+    "strName" : "ACTLighterDestroy",
+    "aCOs"    : [
+      "MSDestroyLighter=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "interaction"
+  },
+	
+		  {
+    "strName" : "ACTWelderGottDamage",
+    "aCOs"    : [
+      "MSDamageWelderGott=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "interaction"
+  },
+		    {
+    "strName" : "ACTWelderGottDestroy",
+    "aCOs"    : [
+      "MSDestroyWelderGott=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "interaction"
+  },
+	
+			  {
+    "strName" : "ACTDrillHarvDamage",
+    "aCOs"    : [
+      "MSDamageDrillHarv=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "interaction"
+  },
+		    {
+    "strName" : "ACTDrillHarvDestroy",
+    "aCOs"    : [
+      "MSDestroyDrillHarv=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "interaction"
+  },
+	
+				  {
+    "strName" : "ACTGrinderHarvDamage",
+    "aCOs"    : [
+      "MSDamageGrinderHarv=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "interaction"
+  },
+		    {
+    "strName" : "ACTGrinderHarvDestroy",
+    "aCOs"    : [
+      "MSDestroyGrinderHarv=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "interaction"
+  },
+	
+		  {
+    "strName" : "ACTSolderingIronHarvDamage",
+    "aCOs"    : [
+      "MSDamageSolderingIronHarv=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "interaction"
+  },
+		    {
+    "strName" : "ACTSolderingIronHarvDestroy",
+    "aCOs"    : [
+      "MSDestroySolderingIronHarv=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "interaction"
+  },
+	
+	{
+    "strName" : "ACTWelderElahiDamage",
+    "aCOs"    : [
+      "MSDamageWelderElahi=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "interaction"
+  },
+		    {
+    "strName" : "ACTWelderElahiDestroy",
+    "aCOs"    : [
+      "MSDestroyWelderElahi=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "interaction"
+  },
+	
+		{
+    "strName" : "ACTDrillElahiDamage",
+    "aCOs"    : [
+      "MSDamageDrillElahi=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "interaction"
+  },
+		    {
+    "strName" : "ACTDrillElahiDestroy",
+    "aCOs"    : [
+      "MSDestroyDrillElahi=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "interaction"
+  },
+  
+  		{
+    "strName" : "ACTGrinderElahiDamage",
+    "aCOs"    : [
+      "MSDamageGrinderElahi=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "interaction"
+  },
+		    {
+    "strName" : "ACTGrinderElahiDestroy",
+    "aCOs"    : [
+      "MSDestroyGrinderElahi=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "interaction"
+  },
+    		{
+    "strName" : "ACTSolderingIronElahiDamage",
+    "aCOs"    : [
+      "MSDamageSolderingIronElahi=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "interaction"
+  },
+		    {
+    "strName" : "ACTSolderingIronElahiDestroy",
+    "aCOs"    : [
+      "MSDestroySolderingIronElahi=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "interaction"
+  },
+  
+      		{
+    "strName" : "ACTChargerBattElahi01Damage",
+    "aCOs"    : [
+      "MSDamageChargerBattElahi01=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "interaction"
+  },
+		    {
+    "strName" : "ACTChargerBattElahi01Destroy",
+    "aCOs"    : [
+      "MSDestroyChargerBattElahi01=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "interaction"
+  },
+  
+        		{
+    "strName" : "ACTChargerBattElahi01LooseDamage",
+    "aCOs"    : [
+      "MSDamageChargerBattElahi01Loose=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "interaction"
+  },
+		    {
+    "strName" : "ACTChargerBattElahi01LooseDestroy",
+    "aCOs"    : [
+      "MSDestroyChargerBattElahi01Loose=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "interaction"
+  }
+]

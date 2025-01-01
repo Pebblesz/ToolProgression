@@ -1,0 +1,101 @@
+[
+    {
+        "strName": "ItmToolLighter01Normal",
+        "strCondName": null,
+        "fCondAmount": 0.0000875,
+        "fDmgAmountUs": 0.000012125,
+        "fDmgAmountCharge": 0.000012125,
+        "strItemCT": null,
+        "nItemAmount": 0,
+        "bUseContained": true,
+        "bUseSelf": false
+    },
+    {
+        "strName": "ItmToolWelderGott01Normal",
+        "strCondName": "StatPower",
+        "fCondAmount": 0.0000875,
+        "fDmgAmountUs": 0.000012125,
+        "fDmgAmountCharge": 0.000012125,
+        "strItemCT": null,
+        "nItemAmount": 0,
+        "bUseContained": true,
+        "bUseSelf": false
+    },
+    {
+        "strName": "ItmToolWelderElahi01Normal",
+        "strCondName": "StatPower",
+        "fCondAmount": 0.0000875,
+        "fDmgAmountUs": 0.000012125,
+        "fDmgAmountCharge": 0.000012125,
+        "strItemCT": null,
+        "nItemAmount": 0,
+        "bUseContained": true,
+        "bUseSelf": false
+    },
+    {
+        "strName": "ItmToolDrillHarv01Normal",
+        "strCondName": "StatPower",
+        "fCondAmount": 0.0000875,
+        "fDmgAmountUs": 0.000012125,
+        "fDmgAmountCharge": 0.000012125,
+        "strItemCT": null,
+        "nItemAmount": 0,
+        "bUseContained": true,
+        "bUseSelf": false
+    },
+    {
+        "strName": "ItmToolDrillElahi01Normal",
+        "strCondName": "StatPower",
+        "fCondAmount": 0.0000875,
+        "fDmgAmountUs": 0.000012125,
+        "fDmgAmountCharge": 0.000012125,
+        "strItemCT": null,
+        "nItemAmount": 0,
+        "bUseContained": true,
+        "bUseSelf": false
+    },
+    {
+        "strName": "ItmToolGrinderHarv01Normal",
+        "strCondName": "StatPower",
+        "fCondAmount": 0.0000875,
+        "fDmgAmountUs": 0.000012125,
+        "fDmgAmountCharge": 0.000012125,
+        "strItemCT": null,
+        "nItemAmount": 0,
+        "bUseContained": true,
+        "bUseSelf": false
+    },
+    {
+        "strName": "ItmToolGrinderElahi01Normal",
+        "strCondName": "StatPower",
+        "fCondAmount": 0.0000875,
+        "fDmgAmountUs": 0.000012125,
+        "fDmgAmountCharge": 0.000012125,
+        "strItemCT": null,
+        "nItemAmount": 0,
+        "bUseContained": true,
+        "bUseSelf": false
+    },
+    {
+        "strName": "ItmToolSolderingIronHarv01Normal",
+        "strCondName": "StatPower",
+        "fCondAmount": 0.0000875,
+        "fDmgAmountUs": 0.000012125,
+        "fDmgAmountCharge": 0.000012125,
+        "strItemCT": null,
+        "nItemAmount": 0,
+        "bUseContained": true,
+        "bUseSelf": false
+    },
+    {
+        "strName": "ItmToolSolderingIronElahi01Normal",
+        "strCondName": "StatPower",
+        "fCondAmount": 0.0000875,
+        "fDmgAmountUs": 0.000012125,
+        "fDmgAmountCharge": 0.000012125,
+        "strItemCT": null,
+        "nItemAmount": 0,
+        "bUseContained": true,
+        "bUseSelf": false
+    }
+]

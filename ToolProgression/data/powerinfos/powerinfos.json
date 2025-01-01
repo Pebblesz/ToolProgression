@@ -1,0 +1,27 @@
+[
+{
+    "strName" : "BatteryElahi01",
+    "aInputPts"      : [
+    ],
+    "fAmount": 1.0,
+    "strIntPowerOn": "",
+    "strIntPowerOff": "",
+    "strUsePowerCT": null,
+    "strRechargeCT": null
+  },
+   {
+    "strName" : "ChargerElahi01",
+    "aInputPts"      : [
+      "PowerSource"
+    ],
+    "fAmount": 0.000000015,
+    "strIntPowerOn": "MSChargerBattElahi01SwitchOnAllow",
+    "strIntPowerOff": "MSChargerBattElahi01SwitchOffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true
+  }
+
+
+]

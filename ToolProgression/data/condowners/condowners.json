@@ -1,0 +1,1237 @@
+[
+    {
+    "strName" : "ItmToolLighter01",
+    "strNameShort" : "Lighter",
+    "strNameFriendly" : "BIC Disposable Lighter",
+    "strDesc" : "A BIC Disposable Lighter. Suitable for welding or soldering when you got no other options.",
+    "strItemDef" : "ItmToolLighter01",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "Inventory",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsHandheld=1.0x1.0",
+      "IsBIC=1.0x1",
+      "IsRigid=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "IsClippable=1.0x1.0",
+      "IsToolWelding=1.0x0.5",
+	  "IsToolSoldering=1.0x0.5",
+      "StatMass=1.0x0.2",
+      "StatBasePrice=1.0x10.0",
+      "StatDamageMax=1.0x1",
+      "StatDismantleProgressMax=1.0x130",
+      "IsCategoryTools=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTLighterDamage,StatDamageMax,1.0"
+    ],
+    "mapCondTolerance"       : [
+    ],
+
+    "mapChargeProfiles"  : [
+      "Normal","ItmToolLighter01Normal",
+      "Melee","MeleeAttackDefault"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "ItmToolLighter01",
+    "strAudioEmitter": "ItmToolGeneralSound",
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+    "jsonPI"            : null
+  },
+  
+      {
+    "strName" : "ItmToolLighter01Dmg",
+    "strNameShort" : "Lighter",
+    "strNameFriendly" : "BIC Disposable Lighter (empty)",
+    "strDesc" : "A BIC Disposable Lighter. Suitable for welding or soldering when you got no other options.",
+    "strItemDef" : "ItmToolLighter01Dmg",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "Inventory",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+	  "IsDamaged=1.0x1",
+      "IsHandheld=1.0x1.0",
+      "IsBIC=1.0x1",
+      "IsRigid=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "IsClippable=1.0x1.0",
+      "StatMass=1.0x0.1",
+      "StatBasePrice=1.0x10.0",
+      "StatDamageMax=1.0x1",
+      "StatDismantleProgressMax=1.0x130",
+      "IsCategoryTools=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTLighterDestroy,StatDamageMax,1.0"
+    ],
+    "mapCondTolerance"       : [
+    ],
+
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefault"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "ItmToolLighter01Dmg",
+    "strAudioEmitter": "ItmToolGeneralSound",
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+    "jsonPI"            : null
+  },
+  
+  
+	{
+    "strName" : "ItmToolScrewDriver01",
+	"aStartingConds" : [
+		"--MOD--",
+		"IsToolFlathead=1.0x0.5",
+		"IsToolMortorq=1.0x0.5",
+		"IsToolPhilips=1.0x0.5"
+	]
+	},
+	
+	{
+    "strName" : "ItmToolHacksaw01",
+	"aStartingConds" : [
+		"--MOD--",
+		"IsToolStructureCutter=1.0x0.5"
+		]
+	},
+	
+	{
+    "strName" : "ItmToolDrill01",
+	"aStartingConds" : [
+		"--MOD--",
+		"IsToolBoring=1.0x1.0",
+		"IsToolFlathead=1.0x1.0",
+		"IsToolMortorq=1.0x1.0",
+		"IsToolPhilips=1.0x1.0",
+		"StatBasePrice=1.0x5000.0"
+	]
+	},
+	{
+	"strName" : "ItmToolGrinder02",
+	"aStartingConds" : [
+		"--MOD--",
+		"IsToolStructureCutter=1.0x1.0",
+		"StatBasePrice=1.0x5000.0"
+		]
+	},
+	
+	{
+	"strName" : "ItmToolSolderingIron01",
+	"aStartingConds" : [
+		"--MOD--",
+		"StatBasePrice=1.0x5000.0"
+		]
+	},
+	
+	{
+	"strName" : "ItmBatteryDrill01",
+	"aStartingConds" : [
+		"--MOD--",
+		"StatBasePrice=1.0x625.0"
+		]
+	},
+	
+    {
+    "strName" : "ItmToolWelderGott01",
+    "strNameShort" : "GottWelder",
+    "strNameFriendly" : "Gott Electrical Arc Welder",
+    "strDesc" : "A Gott handheld electrical arc welder. Suitable for welding in pressurized and vacuum environments.",
+    "strItemDef" : "ItmToolWelderGott01",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "Inventory",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsHandheld=1.0x1.0",
+      "IsGott=1.0x1",
+      "IsRigid=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "IsClippable=1.0x1.0",
+      "IsToolWelding=1.0x1.0",
+      "StatMass=1.0x2.0",
+      "StatBasePrice=1.0x5000.0",
+      "StatDamageMax=1.0x6",
+      "StatDismantleProgressMax=1.0x130",
+      "IsPowerObservable=1.0x1",
+      "IsMechanical=1.0x1",
+      "IsCategoryTools=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTWelderGottDamage,StatDamageMax,1.0"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "strContainerCT"    : "TIsFitContainerDrill01Battery",
+    "nContainerHeight"   : 1,
+    "nContainerWidth"   : 1,
+    "mapAltItemDefs"  : [
+      "IsBatteryDrill01","ItmToolWelderGott01Full"
+    ],
+    "mapChargeProfiles"  : [
+      "Normal","ItmToolWelderGott01Normal",
+      "Melee","MeleeAttackDefault"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "ItmToolWelderGott01",
+    "strAudioEmitter": "ItmToolGeneralSound",
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+	"mapAltSlotImgs"  : [
+      "ItmToolWelderGott01Full"
+    ],
+    "jsonPI"            : null
+  },
+  {
+    "strName" : "ItmToolWelderGott01Dmg",
+    "strNameShort" : "Welder",
+    "strNameFriendly" : "Gott Electrical Arc Welder (Damaged)",
+    "strDesc" : "A damaged handheld electrical arc welder. Suitable for welding in pressurized and vacuum environments.",
+    "strItemDef" : "ItmToolWelderGott01Dmg",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "Inventory",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsHandheld=1.0x1.0",
+      "IsGott=1.0x1",
+      "IsRigid=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "IsClippable=1.0x1.0",
+      "IsToolWelding=1.0x1.0",
+      "StatMass=1.0x2.0",
+      "StatBasePrice=1.0x3500.0",
+      "StatDamageMax=1.0x18",
+      "StatRepairProgressMax=1.0x450",
+      "IsPowerObservable=1.0x1",
+      "IsMechanical=1.0x1",
+      "IsCategoryTools=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTWelderGottDestroy,StatDamageMax,1.0"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "strContainerCT"    : "TIsFitContainerDrill01Battery",
+    "nContainerHeight"   : 1,
+    "nContainerWidth"   : 1,
+    "mapAltItemDefs"  : [
+      "IsBatteryDrill01","ItmToolWelderGott01FullDmg"
+    ],
+    "mapChargeProfiles"  : [
+      "Normal","ItmToolWelderGott01Normal",
+      "Melee","MeleeAttackDefault"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "ItmToolWelderGott01Dmg",
+    "strAudioEmitter": "ItmToolGeneralSound",
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+    "mapAltSlotImgs"  : [
+      "ItmToolWelderGott01FullDmg"
+    ]
+     },
+	 
+	 {
+	"strName" : "ItmBatteryWelder01",
+	"aStartingConds" : [
+		"--MOD--",
+		"StatBasePrice=1.0x800.0",
+		"StatPower=1.0x0.2439",
+        "StatPowerMax=1.0x0.2439"
+		]
+	},
+	
+	{
+	"strName" : "ItmToolWelder01",
+	"aStartingConds" : [
+		"--MOD--",
+		"StatBasePrice=1.0x14000.0",
+		"IsToolWelding=1.0x1.5"
+		]
+	},
+
+{
+    "strName" : "ItmToolDrillHarv01",
+    "strNameShort" : "Drill",
+    "strNameFriendly" : "Halvorson Impact Drill",
+    "strDesc" : "A Halvorson handheld drill with an impact hammer, necessary to install most shipboard components.",
+    "strItemDef" : "ItmToolDrillHarv01",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "Inventory",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsHalvorson=1.0x1",
+      "IsHandheld=1.0x1.0",
+      "IsRigid=1.0x1.0",
+      "IsSharpPoint=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "IsClippable=1.0x1.0",
+      "IsToolBoring=1.0x1.5",
+      "IsToolFlathead=1.0x1.5",
+      "IsToolMortorq=1.0x1.5",
+      "IsToolPhilips=1.0x1.5",
+      "IsSharpPoint=1.0x1.0",
+      "StatMass=1.0x2.0",
+      "StatBasePrice=1.0x14000.0",
+      "StatDamageMax=1.0x6",
+      "StatDismantleProgressMax=1.0x130",
+      "IsPowerObservable=1.0x1",
+      "IsMechanical=1.0x1",
+      "IsCategoryTools=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDrillHarvDamage,StatDamageMax,1.0"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "strContainerCT"    : "TIsFitContainerWelder01Battery",
+    "nContainerHeight"   : 1,
+    "nContainerWidth"   : 1,
+    "mapAltItemDefs"  : [
+      "ItmBatteryWelder01","ItmToolDrillHarv01Full"
+    ],
+    "mapChargeProfiles"  : [
+      "Normal","ItmToolDrillHarv01Normal",
+      "Melee","MeleeAttackDefault"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "ItmToolDrillHarv01",
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+    "mapAltSlotImgs"  : [
+      "ItmToolDrillHarv01Full"
+    ],
+    "jsonPI"        : null,
+    "strAudioEmitter" : "ItmToolDrill01Sound"
+  },
+
+{
+    "strName" : "ItmToolDrillHarv01Dmg",
+    "strNameShort" : "Drill",
+    "strNameFriendly" : "Halvorson Impact Drill",
+    "strDesc" : "A Halvorson handheld drill (Damaged)",
+    "strItemDef" : "ItmToolDrillHarv01Dmg",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "Inventory",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+	  "IsDamaged=1.0x1",
+      "IsHalvorson=1.0x1",
+      "IsHandheld=1.0x1.0",
+      "IsRigid=1.0x1.0",
+      "IsSharpPoint=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "IsClippable=1.0x1.0",
+      "IsToolBoring=1.0x1.5",
+      "IsToolFlathead=1.0x1.5",
+      "IsToolMortorq=1.0x1.5",
+      "IsToolPhilips=1.0x1.5",
+      "IsSharpPoint=1.0x1.0",
+      "StatMass=1.0x2.0",
+      "StatBasePrice=1.0x14000.0",
+      "StatDamageMax=1.0x6",
+      "StatDismantleProgressMax=1.0x130",
+      "IsPowerObservable=1.0x1",
+      "IsMechanical=1.0x1",
+      "IsCategoryTools=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDrillHarvDestroy,StatDamageMax,1.0"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "strContainerCT"    : "TIsFitContainerWelder01Battery",
+    "nContainerHeight"   : 1,
+    "nContainerWidth"   : 1,
+    "mapAltItemDefs"  : [
+      "ItmBatteryWelder01","ItmToolDrillHarv01FullDmg"
+    ],
+    "mapChargeProfiles"  : [
+      "Normal","ItmToolDrillHarv01Normal",
+      "Melee","MeleeAttackDefault"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "ItmToolDrillHarv01Dmg",
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+    "mapAltSlotImgs"  : [
+      "ItmToolDrillHarv01FullDmg"
+    ],
+    "jsonPI"        : null,
+    "strAudioEmitter" : "ItmToolDrill01Sound"
+  },
+  
+{
+    "strName" : "ItmToolGrinderHarv01",
+    "strNameShort" : "Grinder",
+    "strNameFriendly" : "Halvorson Multitool",
+    "strDesc" : "A Halvorson handheld Multitool, a way to uninstall ship parts, when powered.",
+    "strItemDef" : "ItmToolGrinderHarv01",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "Inventory",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsHalvorson=1.0x1",
+      "IsHandheld=1.0x1.0",
+      "IsClippable=1.0x1.0",
+      "IsRigid=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatMass=1.0x2.0",
+      "IsToolStructureCutter=1.0x1.5",
+      "IsToolWireCutter=1.0x1.0",      
+      "IsToolBuffing=1.0x1.5",
+      "IsSharpEdge=1.0x1.0",
+      "StatBasePrice=1.0x14000.0",
+      "StatDamageMax=1.0x6",
+      "StatDismantleProgressMax=1.0x130",
+      "IsPowerObservable=1.0x1",
+      "IsMechanical=1.0x1",
+      "IsCategoryTools=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTGrinderHarvDamage,StatDamageMax,1.0"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "strContainerCT"    : "TIsFitContainerWelder01Battery",
+    "nContainerHeight"   : 1,
+    "nContainerWidth"   : 1,
+    "mapAltItemDefs"  : [
+      "IsBatteryWelder01","ItmToolGrinderHarv01Full"
+    ],
+    "mapAltSlotImgs"  : [
+      "ItmToolGrinderHarv01Full"
+    ],
+    "mapChargeProfiles"  : [
+      "Normal","ItmToolGrinderHarv01Normal",
+      "MeleeGrind","ItmToolGrinder02Melee",
+      "Melee","MeleeAttackDefaultFragile"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "ItmToolGrinderHarv01",
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+    "jsonPI"        : null,
+    "strAudioEmitter": "ItmToolGrinder02Sound"
+  },
+  
+  {
+    "strName" : "ItmToolGrinderHarv01Dmg",
+    "strNameShort" : "Grinder",
+    "strNameFriendly" : "Halvorson Multitool",
+    "strDesc" : "A Halvorson handheld Multitool (Damaged)",
+    "strItemDef" : "ItmToolGrinderHarv01Dmg",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "Inventory",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+	  "IsDamaged=1.0x1",
+      "IsHalvorson=1.0x1",
+      "IsHandheld=1.0x1.0",
+      "IsClippable=1.0x1.0",
+      "IsRigid=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatMass=1.0x2.0",
+      "IsToolStructureCutter=1.0x1.5",
+      "IsToolWireCutter=1.0x1.0",      
+      "IsToolBuffing=1.0x1.5",
+      "IsSharpEdge=1.0x1.0",
+      "StatBasePrice=1.0x14000.0",
+      "StatDamageMax=1.0x6",
+      "StatDismantleProgressMax=1.0x130",
+      "IsPowerObservable=1.0x1",
+      "IsMechanical=1.0x1",
+      "IsCategoryTools=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTGrinderHarvDestroy,StatDamageMax,1.0"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "strContainerCT"    : "TIsFitContainerWelder01Battery",
+    "nContainerHeight"   : 1,
+    "nContainerWidth"   : 1,
+    "mapAltItemDefs"  : [
+      "IsBatteryWelder01","ItmToolGrinderHarv01FullDmg"
+    ],
+    "mapAltSlotImgs"  : [
+      "ItmToolGrinderHarv01FullDmg"
+    ],
+    "mapChargeProfiles"  : [
+      "Normal","ItmToolGrinderHarv01Normal",
+      "MeleeGrind","ItmToolGrinder02Melee",
+      "Melee","MeleeAttackDefaultFragile"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "ItmToolGrinderHarv01Dmg",
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+    "jsonPI"        : null,
+    "strAudioEmitter": "ItmToolGrinder02Sound"
+  },
+  
+  
+   {
+    "strName" : "ItmToolSolderingIronHarv01",
+    "strNameShort" : "Solderer",
+    "strNameFriendly" : "Halvorson Soldering Iron",
+    "strDesc" : "A Halvorson handheld soldering iron, a way to solder electronics.",
+    "strItemDef" : "ItmToolSolderingIronHarv01",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "Inventory",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsHalvorson=1.0x1",
+      "IsHandheld=1.0x1.0",
+      "IsRigid=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "IsClippable=1.0x1.0",
+      "StatMass=1.0x2.0",
+      "IsToolSoldering=1.0x1.5",
+      "IsSharpPoint=1.0x1.0",
+      "StatBasePrice=1.0x14000.0",
+      "StatDamageMax=1.0x6",
+      "StatDismantleProgressMax=1.0x120",
+      "IsPowerObservable=1.0x1",
+      "IsTechnology=1.0x1",
+      "IsCategoryTools=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTSolderingIronHarvDamage,StatDamageMax,1.0"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "strContainerCT"    : "TIsFitContainerWelder01Battery",
+    "nContainerHeight"   : 1,
+    "nContainerWidth"   : 1,
+    "mapAltItemDefs"  : [
+      "IsBatteryWelder01","ItmToolSolderingIronHarv01Full"
+    ],
+    "mapAltSlotImgs"  : [
+      "ItmToolSolderingIronHarv01Full"
+    ],
+    "mapChargeProfiles"  : [
+      "Normal","ItmToolSolderingIronHarv01Normal",
+      "Melee","ItmToolSolderingIron01Melee"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "ItmToolSolderingIronHarv01",
+    "strAudioEmitter": "ItmToolGeneralSound",
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+    "jsonPI"        : null
+  },
+  
+  {
+    "strName" : "ItmToolSolderingIronHarv01Dmg",
+    "strNameShort" : "Solderer",
+    "strNameFriendly" : "Halvorson Soldering Iron",
+    "strDesc" : "A Halvorson handheld soldering iron, a way to solder electronics.",
+    "strItemDef" : "ItmToolSolderingIronHarv01Dmg",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "Inventory",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+	  "IsDamaged=1.0x1",
+      "IsHalvorson=1.0x1",
+      "IsHandheld=1.0x1.0",
+      "IsRigid=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "IsClippable=1.0x1.0",
+      "StatMass=1.0x2.0",
+      "IsToolSoldering=1.0x1.5",
+      "IsSharpPoint=1.0x1.0",
+      "StatBasePrice=1.0x14000.0",
+      "StatDamageMax=1.0x6",
+      "StatDismantleProgressMax=1.0x120",
+      "IsPowerObservable=1.0x1",
+      "IsTechnology=1.0x1",
+      "IsCategoryTools=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTSolderingIronHarvDestroy,StatDamageMax,1.0"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "strContainerCT"    : "TIsFitContainerWelder01Battery",
+    "nContainerHeight"   : 1,
+    "nContainerWidth"   : 1,
+    "mapAltItemDefs"  : [
+      "IsBatteryWelder01","ItmToolSolderingIronHarv01FullDmg"
+    ],
+    "mapAltSlotImgs"  : [
+      "ItmToolSolderingIronHarv01FullDmg"
+    ],
+    "mapChargeProfiles"  : [
+      "Normal","ItmToolSolderingIronHarv01Normal",
+      "Melee","ItmToolSolderingIron01Melee"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "ItmToolSolderingIronHarv01Dmg",
+    "strAudioEmitter": "ItmToolGeneralSound",
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+    "jsonPI"        : null
+  },
+  
+	{
+	"strName" : "ItmBattery04",
+	"aStartingConds" : [
+		"--MOD--",
+		"StatBasePrice=1.0x14000.0"
+		]
+	},
+  
+  	{
+	"strName" : "ItmToolLaserTorch01",
+	"aStartingConds" : [
+		"--MOD--",
+		"StatBasePrice=1.0x125000.0",
+		"--ADD--=",
+		"IsToolBoring=1.0x2",
+        "IsToolFlathead=1.0x2",
+        "IsToolMortorq=1.0x2",
+        "IsToolPhilips=1.0x2"
+		]
+	},
+	
+    {
+    "strName" : "ItmToolWelderElahi01",
+    "strNameShort" : "ElahiWelder",
+    "strNameFriendly" : "EPS  'Plasma Sabre'",
+    "strDesc" : "An Elahi Precision Systems 'Plasma Sabre'. Suitable for welding in pressurized and vacuum environments",
+    "strItemDef" : "ItmToolWelderElahi01",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "Inventory",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsHandheld=1.0x1.0",
+      "IsElahi=1.0x1",
+      "IsRigid=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "IsClippable=1.0x1.0",
+      "IsToolWelding=1.0x3.0",
+      "StatMass=1.0x2.0",
+      "StatBasePrice=1.0x98000.0",
+      "StatDamageMax=1.0x6",
+      "StatDismantleProgressMax=1.0x130",
+      "IsPowerObservable=1.0x1",
+      "IsMechanical=1.0x1",
+      "IsCategoryTools=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTWelderElahiDamage,StatDamageMax,1.0"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "strContainerCT"    : "TIsFitContainerElahi01Battery",
+    "nContainerHeight"   : 1,
+    "nContainerWidth"   : 1,
+    "mapAltItemDefs"  : [
+      "IsBatteryElahi01","ItmToolWelderElahi01Full"
+    ],
+    "mapChargeProfiles"  : [
+      "Normal","ItmToolWelderElahi01Normal",
+      "Melee","MeleeAttackDefault"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "ItmToolWelderElahi01",
+    "strAudioEmitter": "ItmToolGeneralSound",
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+	"mapAltSlotImgs"  : [
+      "ItmToolWelderElahi01Full"
+    ],
+    "jsonPI"            : null
+  },
+	  {
+    "strName" : "ItmToolWelderElahi01Dmg",
+    "strNameShort" : "ElahiWelder",
+    "strNameFriendly" : "EPS  'Plasma Sabre'",
+    "strDesc" : "An Elahi Precision Systems 'Plasma Sabre' (Damaged)",
+    "strItemDef" : "ItmToolWelderElahi01Dmg",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "Inventory",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+	  "IsDamaged=1.0x1",
+      "IsHandheld=1.0x1.0",
+      "IsElahi=1.0x1",
+      "IsRigid=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "IsClippable=1.0x1.0",
+      "IsToolWelding=1.0x3.0",
+      "StatMass=1.0x2.0",
+      "StatBasePrice=1.0x98000.0",
+      "StatDamageMax=1.0x6",
+      "StatDismantleProgressMax=1.0x130",
+      "IsPowerObservable=1.0x1",
+      "IsMechanical=1.0x1",
+      "IsCategoryTools=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTWelderElahiDestroy,StatDamageMax,1.0"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "strContainerCT"    : "TIsFitContainerElahi01Battery",
+    "nContainerHeight"   : 1,
+    "nContainerWidth"   : 1,
+    "mapAltItemDefs"  : [
+      "IsBatteryElahi01","ItmToolWelderElahi01FullDmg"
+    ],
+    "mapChargeProfiles"  : [
+      "Normal","ItmToolWelderElahi01Normal",
+      "Melee","MeleeAttackDefault"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "ItmToolWelderElahi01Dmg",
+    "strAudioEmitter": "ItmToolGeneralSound",
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+	"mapAltSlotImgs"  : [
+      "ItmToolWelderElahi01FullDmg"
+    ],
+    "jsonPI"            : null
+  },
+  
+	 {
+    "strName" : "ItmToolDrillElahi01",
+    "strNameShort" : "ElahiDrill",
+    "strNameFriendly" : "EPS 'Pen Driver'",
+    "strDesc" : "An Elahi Precision Systems 'Pen Driver': lightweight, small yet powerful drill, necessary to install most shipboard components.",
+    "strItemDef" : "ItmToolDrillElahi01",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "Inventory",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsElahi=1.0x1",
+      "IsHandheld=1.0x1.0",
+      "IsRigid=1.0x1.0",
+      "IsSharpPoint=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "IsClippable=1.0x1.0",
+      "IsToolBoring=1.0x3.0",
+      "IsToolFlathead=1.0x3.0",
+      "IsToolMortorq=1.0x3.0",
+      "IsToolPhilips=1.0x3.0",
+      "IsSharpPoint=1.0x1.0",
+      "StatMass=1.0x2.0",
+      "StatBasePrice=1.0x98000.0",
+      "StatDamageMax=1.0x6",
+      "StatDismantleProgressMax=1.0x130",
+      "IsPowerObservable=1.0x1",
+      "IsMechanical=1.0x1",
+      "IsCategoryTools=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDrillElahiDamage,StatDamageMax,1.0"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "strContainerCT"    : "TIsFitContainerElahi01Battery",
+    "nContainerHeight"   : 1,
+    "nContainerWidth"   : 1,
+    "mapAltItemDefs"  : [
+      "IsBatteryElahi01","ItmToolDrillElahi01Full"
+    ],
+    "mapChargeProfiles"  : [
+      "Normal","ItmToolDrillElahi01Normal",
+      "Melee","MeleeAttackDefault"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "ItmToolDrillElahi01",
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+    "mapAltSlotImgs"  : [
+      "ItmToolDrillElahi01Full"
+    ],
+    "jsonPI"        : null,
+    "strAudioEmitter" : "ItmToolDrill01Sound"
+  },
+  
+  {
+    "strName" : "ItmToolDrillElahi01Dmg",
+    "strNameShort" : "ElahiDrill",
+    "strNameFriendly" : "EPS 'Pen Driver'",
+    "strDesc" : "An Elahi Precision Systems 'Pen Driver'(Damaged) ",
+    "strItemDef" : "ItmToolDrillElahi01Dmg",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "Inventory",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+	  "IsDamaged=1.0x1",
+      "IsElahi=1.0x1",
+      "IsHandheld=1.0x1.0",
+      "IsRigid=1.0x1.0",
+      "IsSharpPoint=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "IsClippable=1.0x1.0",
+      "IsToolBoring=1.0x3.0",
+      "IsToolFlathead=1.0x3.0",
+      "IsToolMortorq=1.0x3.0",
+      "IsToolPhilips=1.0x3.0",
+      "IsSharpPoint=1.0x1.0",
+      "StatMass=1.0x2.0",
+      "StatBasePrice=1.0x98000.0",
+      "StatDamageMax=1.0x6",
+      "StatDismantleProgressMax=1.0x130",
+      "IsPowerObservable=1.0x1",
+      "IsMechanical=1.0x1",
+      "IsCategoryTools=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDrillElahiDestroy,StatDamageMax,1.0"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "strContainerCT"    : "TIsFitContainerElahi01Battery",
+    "nContainerHeight"   : 1,
+    "nContainerWidth"   : 1,
+    "mapAltItemDefs"  : [
+      "IsBatteryElahi01","ItmToolDrillElahi01FullDmg"
+    ],
+    "mapChargeProfiles"  : [
+      "Normal","ItmToolDrillElahi01Normal",
+      "Melee","MeleeAttackDefault"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "ItmToolDrillElahi01Dmg",
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+    "mapAltSlotImgs"  : [
+      "ItmToolDrillElahi01FullDmg"
+    ],
+    "jsonPI"        : null,
+    "strAudioEmitter" : "ItmToolDrill01Sound"
+  },
+
+{
+    "strName" : "ItmToolGrinderElahi01",
+    "strNameShort" : "ElahiGrinder",
+    "strNameFriendly" : "EPS 'Vibro Blade'",
+    "strDesc" : "An Elahi Precision Systems 'Vibro Blade', a way to uninstall ship parts, when powered.",
+    "strItemDef" : "ItmToolGrinderElahi01",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "Inventory",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsElahi=1.0x1",
+      "IsHandheld=1.0x1.0",
+      "IsClippable=1.0x1.0",
+      "IsRigid=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatMass=1.0x2.0",
+      "IsToolStructureCutter=1.0x3.0",
+      "IsToolWireCutter=1.0x1.0",      
+      "IsToolBuffing=1.0x3",
+      "IsSharpEdge=1.0x1.0",
+      "StatBasePrice=1.0x98000.0",
+      "StatDamageMax=1.0x6",
+      "StatDismantleProgressMax=1.0x130",
+      "IsPowerObservable=1.0x1",
+      "IsMechanical=1.0x1",
+      "IsCategoryTools=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTGrinderElahiDamage,StatDamageMax,1.0"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "strContainerCT"    : "TIsFitContainerElahi01Battery",
+    "nContainerHeight"   : 1,
+    "nContainerWidth"   : 1,
+    "mapAltItemDefs"  : [
+      "IsBatteryElahi01","ItmToolGrinderElahi01Full"
+    ],
+    "mapAltSlotImgs"  : [
+      "ItmToolGrinderElahi01Full"
+    ],
+    "mapChargeProfiles"  : [
+      "Normal","ItmToolGrinderElahi01Normal",
+      "MeleeGrind","ItmToolGrinder02Melee",
+      "Melee","MeleeAttackDefaultFragile"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "ItmToolGrinderElahi01",
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+    "jsonPI"        : null,
+    "strAudioEmitter": "ItmToolGrinder02Sound"
+  },
+  
+  {
+    "strName" : "ItmToolGrinderElahi01Dmg",
+    "strNameShort" : "ElahiGrinder",
+    "strNameFriendly" : "EPS 'Vibro Blade'",
+    "strDesc" : "An Elahi Precision Systems 'Vibro Blade'(Damaged)",
+    "strItemDef" : "ItmToolGrinderElahi01Dmg",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "Inventory",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+	  "IsDamaged=1.0x1",
+      "IsElahi=1.0x1",
+      "IsHandheld=1.0x1.0",
+      "IsClippable=1.0x1.0",
+      "IsRigid=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatMass=1.0x2.0",
+      "IsToolStructureCutter=1.0x3.0",
+      "IsToolWireCutter=1.0x1.0",      
+      "IsToolBuffing=1.0x3",
+      "IsSharpEdge=1.0x1.0",
+      "StatBasePrice=1.0x98000.0",
+      "StatDamageMax=1.0x6",
+      "StatDismantleProgressMax=1.0x130",
+      "IsPowerObservable=1.0x1",
+      "IsMechanical=1.0x1",
+      "IsCategoryTools=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTGrinderElahiDestroy,StatDamageMax,1.0"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "strContainerCT"    : "TIsFitContainerElahi01Battery",
+    "nContainerHeight"   : 1,
+    "nContainerWidth"   : 1,
+    "mapAltItemDefs"  : [
+      "IsBatteryElahi01","ItmToolGrinderElahi01FullDmg"
+    ],
+    "mapAltSlotImgs"  : [
+      "ItmToolGrinderElahi01FullDmg"
+    ],
+    "mapChargeProfiles"  : [
+      "Normal","ItmToolGrinderElahi01Normal",
+      "MeleeGrind","ItmToolGrinder02Melee",
+      "Melee","MeleeAttackDefaultFragile"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "ItmToolGrinderElahi01Dmg",
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+    "jsonPI"        : null,
+    "strAudioEmitter": "ItmToolGrinder02Sound"
+  },
+  
+   {
+    "strName" : "ItmToolSolderingIronElahi01",
+    "strNameShort" : "ElahiSolderer",
+    "strNameFriendly" : "EPS 'Pulse Laser'",
+    "strDesc" : "An Elahi Precision Systems 'Pulse Laser', a way to solder electronics.",
+    "strItemDef" : "ItmToolSolderingIronElahi01",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "Inventory",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsElahi=1.0x1",
+      "IsHandheld=1.0x1.0",
+      "IsRigid=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "IsClippable=1.0x1.0",
+      "StatMass=1.0x2.0",
+      "IsToolSoldering=1.0x3.0",
+      "IsSharpPoint=1.0x1.0",
+      "StatBasePrice=1.0x98000.0",
+      "StatDamageMax=1.0x6",
+      "StatDismantleProgressMax=1.0x120",
+      "IsPowerObservable=1.0x1",
+      "IsTechnology=1.0x1",
+      "IsCategoryTools=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTSolderingIronElahiDamage,StatDamageMax,1.0"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "strContainerCT"    : "TIsFitContainerElahi01Battery",
+    "nContainerHeight"   : 1,
+    "nContainerWidth"   : 1,
+    "mapAltItemDefs"  : [
+      "IsBatteryElahi01","ItmToolSolderingIronElahi01Full"
+    ],
+    "mapAltSlotImgs"  : [
+      "ItmToolSolderingIronElahi01Full"
+    ],
+    "mapChargeProfiles"  : [
+      "Normal","ItmToolSolderingIronElahi01Normal",
+      "Melee","ItmToolSolderingIron01Melee"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "ItmToolSolderingIronElahi01",
+    "strAudioEmitter": "ItmToolGeneralSound",
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+    "jsonPI"        : null
+  },
+  
+     {
+    "strName" : "ItmToolSolderingIronElahi01Dmg",
+    "strNameShort" : "ElahiSolderer",
+    "strNameFriendly" : "EPS 'Pulse Laser'",
+    "strDesc" : "An Elahi Precision Systems 'Pulse Laser'(Damaged) ",
+    "strItemDef" : "ItmToolSolderingIronElahi01Dmg",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "Inventory",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+	  "IsDamaged=1.0x1",
+      "IsElahi=1.0x1",
+      "IsHandheld=1.0x1.0",
+      "IsRigid=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "IsClippable=1.0x1.0",
+      "StatMass=1.0x2.0",
+      "IsToolSoldering=1.0x3.0",
+      "IsSharpPoint=1.0x1.0",
+      "StatBasePrice=1.0x98000.0",
+      "StatDamageMax=1.0x6",
+      "StatDismantleProgressMax=1.0x120",
+      "IsPowerObservable=1.0x1",
+      "IsTechnology=1.0x1",
+      "IsCategoryTools=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTSolderingIronElahiDestroy,StatDamageMax,1.0"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "strContainerCT"    : "TIsFitContainerElahi01Battery",
+    "nContainerHeight"   : 1,
+    "nContainerWidth"   : 1,
+    "mapAltItemDefs"  : [
+      "IsBatteryElahi01","ItmToolSolderingIronElahi01FullDmg"
+    ],
+    "mapAltSlotImgs"  : [
+      "ItmToolSolderingIronElahi01FullDmg"
+    ],
+    "mapChargeProfiles"  : [
+      "Normal","ItmToolSolderingIronElahi01Normal",
+      "Melee","ItmToolSolderingIron01Melee"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "ItmToolSolderingIronElahi01Dmg",
+    "strAudioEmitter": "ItmToolGeneralSound",
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+    "jsonPI"        : null
+  },
+  
+    {
+    "strName" : "ItmBatteryElahi01",
+    "strNameShort" : "Battery",
+    "strNameFriendly" : "Battery: Elahi Precision Systems",
+    "strDesc" : "An energy source for Elahi Precision Systems mobile tools.",
+    "strItemDef" : "ItmBatteryElahi01",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "GUIBattery",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsBatteryElahi01=1.0x1",
+      "IsElahi=1.0x1",
+      "IsPowerStorage=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "StatPower=1.0x0.66",
+      "StatPowerMax=1.0x0.66",
+      "StatDamageMax=1.0x4",
+      "StatDismantleProgressMax=1.0x110",
+      "StatMass=1.0x1.04",
+      "StatBasePrice=1.0x11000.00",
+      "IsPowerObservable=1.0x1",
+      "IsCategoryElectronics=1.0x1"
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefault"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTBatteryElahiDamage,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "MeterBattery"
+    ],
+    "strPortraitImg"  : "ItmBatteryElahi01",
+    "strAudioEmitter" : "ItmBatteryGeneralSound",
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultL",
+      "heldR","HeldItmDefaultR"
+    ],
+    "jsonPI"            : "BatteryElahi01"
+  },
+   
+    {
+    "strName" : "ItmBatteryElahi01Dmg",
+    "strNameShort" : "Battery",
+    "strNameFriendly" : "Battery: Elahi Precision Systems",
+    "strDesc" : "An energy source for Elahi Precision Systems mobile tools (Damaged)",
+    "strItemDef" : "ItmBatteryElahi01Dmg",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "GUIBattery",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+	  "IsDamaged=1.0x1",
+      "IsBatteryElahi01=1.0x1",
+      "IsElahi=1.0x1",
+      "IsPowerStorage=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "StatPower=1.0x0.66",
+      "StatPowerMax=1.0x0.66",
+      "StatDamageMax=1.0x4",
+      "StatDismantleProgressMax=1.0x110",
+      "StatMass=1.0x1.04",
+      "StatBasePrice=1.0x11000.00",
+      "IsPowerObservable=1.0x1",
+      "IsCategoryElectronics=1.0x1"
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefault"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTBatteryElahiDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "MeterBattery"
+    ],
+    "strPortraitImg"  : "ItmBatteryElahi01Dmg",
+    "strAudioEmitter" : "ItmBatteryGeneralSound",
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultL",
+      "heldR","HeldItmDefaultR"
+    ],
+    "jsonPI"            : "BatteryElahi01"
+  }
+]

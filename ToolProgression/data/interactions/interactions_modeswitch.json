@@ -1,0 +1,327 @@
+[
+
+    {
+        "strName" : "MSChargerBattElahi01SwitchOffAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] switches off.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "CTTestUs"           : "TIsChargerBattElahi01On",
+        "objLootModeSwitch"    : "ItmChargerBattElahi01Off"
+      },
+      {
+        "strName" : "MSChargerBattElahi01SwitchOnAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] switches on.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "CTTestUs"           : "TIsChargerBattElahi01Off",
+        "objLootModeSwitch"    : "ItmChargerBattElahi01"
+      },
+
+     {
+        "strName" : "MSDamageLighter",
+        "strTitle" : "",
+        "strDesc" : "[us] is damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Self",
+        "bIgnoreFeelings" : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : null,
+        "CTTestThem"         : null,
+        "objLootModeSwitch"    : "ItmToolLighterComponentsAndSelf"
+      },
+	        {
+        "strName" : "MSDestroyLighter",
+        "strTitle" : "",
+        "strDesc" : "[us] is destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Self",
+        "bIgnoreFeelings" : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : null,
+        "CTTestThem"         : null,
+        "objLootModeSwitch"    : "ItmToolLighterComponentsShell"
+      },
+
+     {
+        "strName" : "MSDamageWelderGott",
+        "strTitle" : "",
+        "strDesc" : "[us] is damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Self",
+        "bIgnoreFeelings" : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : null,
+        "CTTestThem"         : null,
+        "objLootModeSwitch"    : "ItmToolWelderGott01ComponentsAndSelf"
+      },
+	        {
+        "strName" : "MSDestroyWelderGott",
+        "strTitle" : "",
+        "strDesc" : "[us] is destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Self",
+        "bIgnoreFeelings" : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : null,
+        "CTTestThem"         : null,
+        "objLootModeSwitch"    : "ItmToolWelderGott01ComponentsShell"
+      },
+	  
+	       {
+        "strName" : "MSDamageDrillHarv",
+        "strTitle" : "",
+        "strDesc" : "[us] is damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Self",
+        "bIgnoreFeelings" : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : null,
+        "CTTestThem"         : null,
+        "objLootModeSwitch"    : "ItmToolDrillHarv01ComponentsAndSelf"
+      },
+	        {
+        "strName" : "MSDestroyDrillHarv",
+        "strTitle" : "",
+        "strDesc" : "[us] is destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Self",
+        "bIgnoreFeelings" : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : null,
+        "CTTestThem"         : null,
+        "objLootModeSwitch"    : "ItmToolDrillHarv01ComponentsShell"
+      },
+	  
+	  	       {
+        "strName" : "MSDamageGrinderHarv",
+        "strTitle" : "",
+        "strDesc" : "[us] is damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Self",
+        "bIgnoreFeelings" : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : null,
+        "CTTestThem"         : null,
+        "objLootModeSwitch"    : "ItmToolGrinderHarv01ComponentsAndSelf"
+      },
+	        {
+        "strName" : "MSDestroyGrinderHarv",
+        "strTitle" : "",
+        "strDesc" : "[us] is destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Self",
+        "bIgnoreFeelings" : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : null,
+        "CTTestThem"         : null,
+        "objLootModeSwitch"    : "ItmToolGrinderHarv01ComponentsShell"
+      },
+	  
+	  
+	  	       {
+        "strName" : "MSDamageSolderingIronHarv",
+        "strTitle" : "",
+        "strDesc" : "[us] is damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Self",
+        "bIgnoreFeelings" : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : null,
+        "CTTestThem"         : null,
+        "objLootModeSwitch"    : "ItmToolSolderingIronHarv01ComponentsAndSelf"
+      },
+	        {
+        "strName" : "MSDestroySolderingIronHarv",
+        "strTitle" : "",
+        "strDesc" : "[us] is destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Self",
+        "bIgnoreFeelings" : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : null,
+        "CTTestThem"         : null,
+        "objLootModeSwitch"    : "ItmToolSolderingIronHarv01ComponentsShell"
+      },	  
+	  
+	  	       {
+        "strName" : "MSDamageWelderElahi",
+        "strTitle" : "",
+        "strDesc" : "[us] is damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Self",
+        "bIgnoreFeelings" : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : null,
+        "CTTestThem"         : null,
+        "objLootModeSwitch"    : "ItmToolWelderElahi01ComponentsAndSelf"
+      },
+	        {
+        "strName" : "MSDestroyWelderElahi",
+        "strTitle" : "",
+        "strDesc" : "[us] is destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Self",
+        "bIgnoreFeelings" : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : null,
+        "CTTestThem"         : null,
+        "objLootModeSwitch"    : "ItmToolWelderElahi01ComponentsShell"
+      },	  
+	  	  
+	  	  	       {
+        "strName" : "MSDamageDrillElahi",
+        "strTitle" : "",
+        "strDesc" : "[us] is damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Self",
+        "bIgnoreFeelings" : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : null,
+        "CTTestThem"         : null,
+        "objLootModeSwitch"    : "ItmToolDrillElahi01ComponentsAndSelf"
+      },
+	     
+	   {
+        "strName" : "MSDestroyDrillElahi",
+        "strTitle" : "",
+        "strDesc" : "[us] is destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Self",
+        "bIgnoreFeelings" : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : null,
+        "CTTestThem"         : null,
+        "objLootModeSwitch"    : "ItmToolDrillElahi01ComponentsShell"
+      },	
+	  
+	  	  	  	       {
+        "strName" : "MSDamageGrinderElahi",
+        "strTitle" : "",
+        "strDesc" : "[us] is damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Self",
+        "bIgnoreFeelings" : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : null,
+        "CTTestThem"         : null,
+        "objLootModeSwitch"    : "ItmToolGrinderElahi01ComponentsAndSelf"
+      },
+	        {
+        "strName" : "MSDestroyGrinderElahi",
+        "strTitle" : "",
+        "strDesc" : "[us] is destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Self",
+        "bIgnoreFeelings" : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : null,
+        "CTTestThem"         : null,
+        "objLootModeSwitch"    : "ItmToolGrinderElahi01ComponentsShell"
+      },	
+	  
+	  	  
+	  {
+        "strName" : "MSDamageSolderingIronElahi",
+        "strTitle" : "",
+        "strDesc" : "[us] is damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Self",
+        "bIgnoreFeelings" : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : null,
+        "CTTestThem"         : null,
+        "objLootModeSwitch"    : "ItmToolSolderingIronElahi01ComponentsAndSelf"
+      },
+	        {
+        "strName" : "MSDestroySolderingIronElahi",
+        "strTitle" : "",
+        "strDesc" : "[us] is destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Self",
+        "bIgnoreFeelings" : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : null,
+        "CTTestThem"         : null,
+        "objLootModeSwitch"    : "ItmToolSolderingIronElahi01ComponentsShell"
+      },
+	  
+	  
+	  {
+        "strName" : "MSDamageChargerBattElahi01",
+        "strTitle" : "",
+        "strDesc" : "[us] is damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Self",
+        "bIgnoreFeelings" : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : null,
+        "CTTestThem"         : null,
+        "objLootModeSwitch"    : "ItmChargerBattElahi01Damage"
+      },
+	        {
+        "strName" : "MSDamageChargerBattElahi01Loose",
+        "strTitle" : "",
+        "strDesc" : "[us] is destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Self",
+        "bIgnoreFeelings" : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : null,
+        "CTTestThem"         : null,
+        "objLootModeSwitch"    : "ItmChargerBattElahi01DamageLoose"
+      },
+	  	        {
+        "strName" : "MSDestroyChargerBattElahi01",
+        "strTitle" : "",
+        "strDesc" : "[us] is destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Self",
+        "bIgnoreFeelings" : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : null,
+        "CTTestThem"         : null,
+        "objLootModeSwitch"    : "ItmChargerBattElahi01ComponentsShell"
+      }	,
+	  	        {
+        "strName" : "MSDestroyChargerBattElahi01Loose",
+        "strTitle" : "",
+        "strDesc" : "[us] is destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Self",
+        "bIgnoreFeelings" : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : null,
+        "CTTestThem"         : null,
+        "objLootModeSwitch"    : "ItmChargerBattElahi01ComponentsShell"
+      }	
+	  
+	  
+	  
+	  
+]

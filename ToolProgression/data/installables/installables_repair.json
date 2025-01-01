@@ -1,0 +1,185 @@
+[
+
+  {
+    "strName": "ToolWelderDmgRepair",
+    "strActionCO": "ItmToolWelderGott01Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Repairs item to a functional state.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": ["TIsMotor=1.0x1", "TIsPartsElecSmall=1.0x1", "TIsPartsMechSmall=1.0x2"],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": ["TIsToolMortorq", "TIsToolSoldering"],
+    "aLootCOs": ["ItmToolWelderGott01"],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressAPPS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateAPPS"
+  },
+  {
+    "strName": "ToolDrillDmgRepair",
+    "strActionCO": "ItmToolDrillHarv01Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Repairs item to a functional state.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": ["TIsMotor=1.0x1", "TIsPartsElecSmall=1.0x1", "TIsPartsMechSmall=1.0x2"],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": ["TIsToolMortorq", "TIsToolSoldering"],
+    "aLootCOs": ["ItmToolDrillHarv01"],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressAPPS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateAPPS"
+  },
+  {
+    "strName": "ToolGrinderDmgRepair",
+    "strActionCO": "ItmToolGrinderHarv01Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Repairs item to a functional state.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": ["TIsMotor=1.0x1", "TIsPartsElecSmall=1.0x1", "TIsPartsMechSmall=1.0x2"],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": ["TIsToolMortorq", "TIsToolSoldering"],
+    "aLootCOs": ["ItmToolGrinderHarv01"],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressAPPS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateAPPS"
+  },
+  {
+    "strName": "ToolSolderingIronDmgRepair",
+    "strActionCO": "ItmToolSolderingIronHarv01Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Repairs item to a functional state.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": ["TIsMotor=1.0x1", "TIsPartsElecSmall=1.0x1", "TIsPartsMechSmall=1.0x2"],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": ["TIsToolMortorq", "TIsToolSoldering"],
+    "aLootCOs": ["ItmToolSolderingIronHarv01"],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressAPPS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateAPPS"
+  },
+  {
+    "strName": "ToolWelderElahiDmgRepair",
+    "strActionCO": "ItmToolWelderElahi01Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Repairs item to a functional state.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": ["TIsMotor=1.0x1", "TIsPartsElecSmall=1.0x1", "TIsPartsMechSmall=1.0x2"],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": ["TIsToolMortorq", "TIsToolSoldering"],
+    "aLootCOs": ["ItmToolWelderElahi01"],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressAPPS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateAPPS"
+  },
+  {
+    "strName": "ToolDrillElahiDmgRepair",
+    "strActionCO": "ItmToolDrillElahi01Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Repairs item to a functional state.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": ["TIsMotor=1.0x1", "TIsPartsElecSmall=1.0x1", "TIsPartsMechSmall=1.0x2"],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": ["TIsToolMortorq", "TIsToolSoldering"],
+    "aLootCOs": ["ItmToolDrillElahi01"],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressAPPS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateAPPS"
+  },
+  {
+    "strName": "ToolGrinderElahiDmgRepair",
+    "strActionCO": "ItmToolGrinderElahi01Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Repairs item to a functional state.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": ["TIsMotor=1.0x1", "TIsPartsElecSmall=1.0x1", "TIsPartsMechSmall=1.0x2"],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": ["TIsToolMortorq", "TIsToolSoldering"],
+    "aLootCOs": ["ItmToolGrinderElahi01"],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressAPPS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateAPPS"
+  },
+  {
+    "strName": "ToolBatteryDmgRepair",
+    "strActionCO": "ItmBatteryElahi01Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Repairs item to a functional state.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": ["TIsMotor=1.0x1", "TIsPartsElecSmall=1.0x1", "TIsPartsMechSmall=1.0x2"],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": ["TIsToolMortorq", "TIsToolSoldering"],
+    "aLootCOs": ["ItmBatteryElahi01"],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressAPPS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateAPPS"
+  },
+  
+    { "strName" : "ChargerBattElahi01DmgRepair", "strActionCO" : "ItmChargerBattElahi01Dmg", "strActionGroup" : "Work", "strTooltip" : "Repairs item to a functional state.",  "strInteractionTemplate" : "ACTRepairTEMP", "CTThem" :  "TIsRepairableNotContained" , "aInputs" : [ "TIsMobo=1.0x1", "TIsHeatSink=1.0x1", "TIsPartsElecSmall=1.0x2" ], "fTargetPointRange" : 2.0, "fDuration" : 0.001, "bSparks" : true, "aToolCTsUse" : [ "TIsToolMortorq", "TIsToolSoldering" ], "aLootCOs" : [ "ItmChargerBattDrill01Off" ], "strJobType" : "repair", "strAllowLootCTsUs" : "CTWorkProgressPOWR", "strAllowLootCTsThem" : "CONDRepairProgressx5", "strProgressStat" : "StatRepairProgress", "strCTThemMultCondTools" : "IsToolMortorq", "strCTThemMultCondUs" : "StatInstallRatePOWR" },
+    { "strName" : "ChargerBattElahi01DmgLooseRepair", "strActionCO" : "ItmChargerBattElahi01DmgLoose", "strActionGroup" : "Work", "strTooltip" : "Repairs item to a functional state.",  "strInteractionTemplate" : "ACTRepairTEMP", "CTThem" :  "TIsRepairableNotContained" , "aInputs" : [ "TIsMobo=1.0x1", "TIsHeatSink=1.0x1", "TIsPartsElecSmall=1.0x2" ], "fTargetPointRange" : 2.0, "fDuration" : 0.001, "bSparks" : true, "aToolCTsUse" : [ "TIsToolMortorq", "TIsToolSoldering" ], "aLootCOs" : [ "ItmChargerBattDrill01OffLoose" ], "strJobType" : "repair", "strAllowLootCTsUs" : "CTWorkProgressPOWR", "strAllowLootCTsThem" : "CONDRepairProgressx5", "strProgressStat" : "StatRepairProgress", "strCTThemMultCondTools" : "IsToolMortorq", "strCTThemMultCondUs" : "StatInstallRatePOWR" }
+    
+  ]
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]

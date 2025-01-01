@@ -1,0 +1,11 @@
+[
+  {
+   "strName" : "Simple Conditions",
+   "aValues" : [
+    "IsBIC","BIC","[us] is a Gott brand item.","2","2","Neutral",
+    "IsElahi","Elahi","[us] is an Elahi brand item.","2","2","Neutral",
+    "IsBatteryElahi01","Elahi Battery","[us] is a battery for Elahi tools.","2","2","Neutral",
+    "IsChargerElahi","Elahi Battery Charger","[us] is an Elahi Precision Systems battery charger.","2","2","Neutral"
+    ]
+  }
+]

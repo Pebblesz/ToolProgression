@@ -1,0 +1,685 @@
+  [
+  {
+    "strName" : "ItmToolWelderGott01",
+    "strImg"  : "ItmToolWelderGott01",
+    "strImgNorm"  : "ItmToolWelderGott01n",
+    "strImgDamaged" : "ItmToolWelderGott01Dmg",
+    "strDmgColor" : "DamageTintNone",
+    "fZScale"  : 0.2,
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName" : "ItmToolWelderGott01Full",
+    "strImg"  : "ItmToolWelderGott01Full",
+    "strImgNorm"  : "ItmToolWelderGott01Fulln",
+    "fZScale"  : 0.2,
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName" : "ItmToolWelderGott01Dmg",
+    "strImg"  : "ItmToolWelderGott01Dmg",
+    "strImgNorm"  : "ItmToolWelder01n",
+    "strDmgColor" : "DamageTintRust",
+    "fZScale"  : 0.2,
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName" : "ItmToolWelderGott01FullDmg",
+    "strImg"  : "ItmToolWelderGott01FullDmg",
+    "strImgNorm"  : "ItmToolWelderGott01Fulln",
+    "fZScale"  : 0.2,
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  
+  {
+    "strName" : "ItmToolLighter01",
+    "strImg"  : "ItmToolLighter01",
+    "strImgNorm"  : "ItmToolLighter01n",
+    "fZScale"  : 0.2,
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName" : "ItmToolLighter01Dmg",
+    "strImg"  : "ItmToolLighter01Dmg",
+    "strImgNorm"  : "ItmToolLighter01n",
+    "strDmgColor" : "DamageTintRust",
+    "fZScale"  : 0.2,
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName" : "ItmToolDrillHarv01",
+    "strImg"  : "ItmToolDrillHarv01",
+    "strImgNorm"  : "ItmToolDrillHarv01n",
+    "strDmgColor" : "DamageTintNone",
+    "fZScale"  : 0.2,
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName" : "ItmToolDrillHarv01Full",
+    "strImg"  : "ItmToolDrillHarv01Full",
+    "strImgNorm"  : "ItmToolDrillHarv01Fulln",
+    "fZScale"  : 0.2,
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName" : "ItmToolDrillHarv01Dmg",
+    "strImg"  : "ItmToolDrillHarv01Dmg",
+    "strImgNorm"  : "ItmToolDrillHarv01n",
+    "strDmgColor" : "DamageTintRust",
+    "fZScale"  : 0.2,
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName" : "ItmToolDrillHarv01FullDmg",
+    "strImg"  : "ItmToolDrillHarv01FullDmg",
+    "strImgNorm"  : "ItmToolDrillHarv01Fulln",
+    "fZScale"  : 0.2,
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName" : "ItmToolGrinderHarv01",
+    "strImg"  : "ItmToolGrinderHarv01",
+    "strImgNorm"  : "ItmToolGrinderHarv01n",
+    "strDmgColor" : "DamageTintNone",
+    "fZScale"  : 0.2,
+    "nCols"  : 2,
+    "aSocketAdds": ["TILItemAdds","TILItemAdds"],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName" : "ItmToolGrinderHarv01Full",
+    "strImg"  : "ItmToolGrinderHarv01Full",
+    "strImgNorm"  : "ItmToolGrinderHarv01Fulln",
+    "fZScale"  : 0.2,
+    "nCols"  : 1,
+    "aSocketAdds": ["TILItemAdds","TILItemAdds"],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName" : "ItmToolGrinderHarv01Dmg",
+    "strImg"  : "ItmToolGrinderHarv01Dmg", 
+    "strImgNorm"  : "ItmToolGrinderHarv01n",
+    "strDmgColor" : "DamageTintRust",
+    "fZScale"  : 0.2,
+    "nCols"  : 1,
+    "aSocketAdds": ["TILItemAdds","TILItemAdds"],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName" : "ItmToolGrinderHarv01FullDmg",
+    "strImg"  : "ItmToolGrinderHarv01FullDmg",
+    "strImgNorm"  : "ItmToolGrinderHarv01Fulln",
+    "fZScale"  : 0.2,
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName" : "ItmToolSolderingIronHarv01",
+    "strImg"  : "ItmToolSolderingIronHarv01",
+    "strImgNorm"  : "ItmToolSolderingIronHarv01n",
+    "strDmgColor" : "DamageTintNone",
+    "fZScale"  : 0.2,
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName" : "ItmToolSolderingIronHarv01Full",
+    "strImg"  : "ItmToolSolderingIronHarv01Full",
+    "strImgNorm"  : "ItmToolSolderingIronHarv01Fulln",
+    "fZScale"  : 0.2,
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName" : "ItmToolSolderingIronHarv01Dmg",
+    "strImg"  : "ItmToolSolderingIronHarv01Dmg",
+    "strImgNorm"  : "ItmToolSolderingIronHarv01n",
+    "strDmgColor" : "DamageTintRust",
+    "fZScale"  : 0.2,
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName" : "ItmToolSolderingIronHarv01FullDmg",
+    "strImg"  : "ItmToolSolderingIronHarv01FullDmg",
+    "strImgNorm"  : "ItmToolSolderingIronHarv01Fulln",
+    "fZScale"  : 0.2,
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName": "ItmToolWelderElahi01",
+    "strImg": "ItmToolWelderElahi01",
+    "strImgNorm": "ItmToolWelderElahi01n",
+    "strImgDamaged": "ItmToolWelderElahi01Dmg",
+    "strDmgColor": "DamageTintNone",
+    "fZScale": 0.2,
+    "nCols": 2,
+    "aSocketAdds": ["TILItemAdds","TILItemAdds"],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName": "ItmToolWelderElahi01Full",
+    "strImg": "ItmToolWelderElahi01Full",
+    "strImgNorm": "ItmToolWelderElahi01Fulln",
+    "fZScale": 0.2,
+    "nCols": 2,
+    "aSocketAdds": ["TILItemAdds","TILItemAdds"],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName": "ItmToolWelderElahi01Dmg",
+    "strImg": "ItmToolWelderElahi01Dmg",
+    "strImgNorm": "ItmToolWelderElahi01n",
+    "strDmgColor": "DamageTintRust",
+    "fZScale": 0.2,
+    "nCols": 2,
+    "aSocketAdds": ["TILItemAdds","TILItemAdds"],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName": "ItmToolWelderElahi01FullDmg",
+    "strImg": "ItmToolWelderElahi01FullDmg",
+    "strImgNorm": "ItmToolWelderElahi01Fulln",
+    "fZScale": 0.2,
+    "nCols": 2,
+    "aSocketAdds": ["TILItemAdds","TILItemAdds"],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName": "ItmToolDrillElahi01",
+    "strImg": "ItmToolDrillElahi01",
+    "strImgNorm": "ItmToolDrillElahi01n",
+    "strImgDamaged": "ItmToolDrillElahi01Dmg",
+    "strDmgColor": "DamageTintNone",
+    "fZScale": 0.2,
+    "nCols": 1,
+    "aSocketAdds": ["TILItemAdds"],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName": "ItmToolDrillElahi01Full",
+    "strImg": "ItmToolDrillElahi01Full",
+    "strImgNorm": "ItmToolDrillElahi01Fulln",
+    "fZScale": 0.2,
+    "nCols": 1,
+    "aSocketAdds": ["TILItemAdds"],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName": "ItmToolDrillElahi01Dmg",
+    "strImg": "ItmToolDrillElahi01Dmg",
+    "strImgNorm": "ItmToolDrillElahi01n",
+    "strDmgColor": "DamageTintRust",
+    "fZScale": 0.2,
+    "nCols": 1,
+    "aSocketAdds": ["TILItemAdds"],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName": "ItmToolDrillElahi01FullDmg",
+    "strImg": "ItmToolDrillElahi01FullDmg",
+    "strImgNorm": "ItmToolDrillElahi01Fulln",
+    "fZScale": 0.2,
+    "nCols": 1,
+    "aSocketAdds": ["TILItemAdds"],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName": "ItmToolGrinderElahi01",
+    "strImg": "ItmToolGrinderElahi01",
+    "strImgNorm": "ItmToolGrinderElahi01n",
+    "strImgDamaged": "ItmToolGrinderElahi01Dmg",
+    "strDmgColor": "DamageTintNone",
+    "fZScale": 0.2,
+    "nCols": 1,
+    "aSocketAdds": ["TILItemAdds"],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName": "ItmToolGrinderElahi01Full",
+    "strImg": "ItmToolGrinderElahi01Full",
+    "strImgNorm": "ItmToolGrinderElahi01Fulln",
+    "fZScale": 0.2,
+    "nCols": 1,
+    "aSocketAdds": ["TILItemAdds"],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName": "ItmToolGrinderElahi01Dmg",
+    "strImg": "ItmToolGrinderElahi01Dmg",
+    "strImgNorm": "ItmToolGrinderElahi01n",
+    "strDmgColor": "DamageTintRust",
+    "fZScale": 0.2,
+    "nCols": 1,
+    "aSocketAdds": ["TILItemAdds"],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName": "ItmToolGrinderElahi01FullDmg",
+    "strImg": "ItmToolGrinderElahi01FullDmg",
+    "strImgNorm": "ItmToolGrinderElahi01Fulln",
+    "fZScale": 0.2,
+    "nCols": 1,
+    "aSocketAdds": ["TILItemAdds"],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName": "ItmToolSolderingIronElahi01",
+    "strImg": "ItmToolSolderingIronElahi01",
+    "strImgNorm": "ItmToolSolderingIronElahi01n",
+    "strImgDamaged": "ItmToolSolderingIronElahi01Dmg",
+    "strDmgColor": "DamageTintNone",
+    "fZScale": 0.2,
+    "nCols": 1,
+    "aSocketAdds": ["TILItemAdds"],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName": "ItmToolSolderingIronElahi01Full",
+    "strImg": "ItmToolSolderingIronElahi01Full",
+    "strImgNorm": "ItmToolSolderingIronElahi01Fulln",
+    "fZScale": 0.2,
+    "nCols": 1,
+    "aSocketAdds": ["TILItemAdds"],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName": "ItmToolSolderingIronElahi01Dmg",
+    "strImg": "ItmToolSolderingIronElahi01Dmg",
+    "strImgNorm": "ItmToolSolderingIronElahi01n",
+    "strDmgColor": "DamageTintRust",
+    "fZScale": 0.2,
+    "nCols": 1,
+    "aSocketAdds": ["TILItemAdds"],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName": "ItmToolSolderingIronElahi01FullDmg",
+    "strImg": "ItmToolSolderingIronElahi01FullDmg",
+    "strImgNorm": "ItmToolSolderingIronElahi01Fulln",
+    "fZScale": 0.2,
+    "nCols": 1,
+    "aSocketAdds": ["TILItemAdds"],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+    {
+    "strName": "ItmBatteryElahi01",
+    "strImg": "ItmBatteryElahi01",
+    "strImgNorm": "ItmBatteryElahi01n",
+    "fZScale": 0.2,
+    "nCols": 1,
+    "aSocketAdds": ["TILItemAdds"],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+[
+
+  { "strName" : "TIsFitContainerElahi01Battery", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsSolid", "IsBatteryElahi01" ], "aForbids" : [ ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsChargerBattElahi01Installed", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsChargerElahi", "IsInstalled" ], "aForbids" : [ ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsChargerBattElahi01Installed", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsChargerElahi", "IsInstalled" ], "aForbids" : [ ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsChargerBattElahi01InstalledDmg", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsChargerElahi", "IsInstalled", "IsDamaged" ], "aForbids" : [ ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsChargerBattElahi01Off", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsChargerElahi", "IsOff" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsChargerBattElahi01On", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsChargerElahi" ], "aForbids" : [ "IsOff" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsChargerBattElahi01Uninstalled", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsChargerElahi" ], "aForbids" : [ "IsInstalled", "IsDamaged" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsChargerBattElahi01UninstalledDmg", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsChargerElahi", "IsDamaged" ], "aForbids" : [ "IsInstalled" ], "aTriggers" : [ ], "bAND" : true }
+]
