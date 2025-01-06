@@ -55,6 +55,9 @@
   { "strName" : "ItmShipbreakerStarterKit", "aCOs" : [ "ItmToolBox02=1.0x1" ], "aLoots" : [ "ItmShipbreakerStarterKitContents=1.0x1" ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
   { "strName" : "ItmShipbreakerStarterKitContents", "aCOs" : [  ], "aLoots" : [ "ItmToolScrewDriver01=1.0x1", "ItmToolHacksaw01=1.0x1", "ItmToolLighter01=1.0x1" ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
 
+  { "strName" : "ItmRandomToolSingles", "aCOs" : [ "ItmToolScrewDriver01=0.1x1|ItmToolHacksaw01=0.05x1|ItmBatteryDisp01=0.05x1-4|ItmToolDrill01=0.0001x1|ItmToolWelder01=0.0001x1|ItmHullPatch01=0.1x1|ItmSealTemp01Loose=0.1x1|ItmToolCrowbar01=0.15x1|ItmToolFireEx01=0.05x1|ItmConduit04Loose=0.2x1" ], "aLoots" : [ ], "strType" : "item" },
+  { "strName" : "ItmRandomToolLoots", "aCOs" : [ ], "aLoots" : [ "ItmToolGrinder02New=0.00015x1|ItmToolSolderingIron01New=0.00015x1|ItmToolDrill01New=0.00015x1|ItmToolWelder01New=0.00015x1|ItmToolLaserTorch01New=0.00005x1|ItmChargerBattDrill01OffLoose=0.0005x1|ItmChargerBattWelder01OffLoose=0.0005x1|ItmChargerBattery04OffLoose=0.05x1|ItmToolWorkLamp01Used=0.1x1|ItmWristPDA01LockedUsed=0.1x1" ], "strType" : "item" },
+  
 	  {
     "strName" : "ACTLighterDamage",
     "aCOs"    : [
