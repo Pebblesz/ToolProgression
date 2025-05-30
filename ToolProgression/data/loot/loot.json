@@ -8,23 +8,61 @@
     {
       "strName" : "ItmSupplyKioskInv",
       "aLoots"  : [
-        "--INS--1=",
-		"ItmToolLighter01=1.0x3-5",
-		
-		"--INS--11=",
-        "ItmToolWelderGott01New=1.0x1-2",
-		"--INS--12=",
-		"ItmToolDrillHarv01New=1.0x1-2",
-		"ItmToolGrinderHarv01New=1.0x1-2",
-		"ItmToolSolderingIronHarv01New=1.0x1-2",
-		"--INS--16=",
-		"ItmToolWelderElahi01New=1.0x1-2",
-		"ItmToolDrillElahi01New=1.0x1-2",
-		"ItmToolGrinderElahi01New=1.0x1-2",
-		"ItmToolSolderingIronElahi01New=1.0x1-2",
-		"ItmBatteryElahi01=1.0x2-4",
-		"--INS--19=",
-		"ItmChargerBattElahi01Loose=1.0x1"
+      "--DEL--",
+      "ItmToolCrowbar01=1.0x3",
+      "ItmToolScrewDriver01=1.0x3",
+      "ItmToolHacksaw01=1.0x3",
+      "ItmToolSolderingIron01New=1.0x3",
+      "ItmToolDrill01New=1.0x3",
+      "ItmToolGrinder02New=1.0x3",
+      "ItmToolLaserTorch01New=1.0x1-2",
+      "ItmToolWelder01New=1.0x3",
+      "ItmChargerBattDrill01OffLoose=1.0x1-2",
+      "ItmChargerBattWelder01OffLoose=1.0x1-2",
+      "ItmChargerBattery04OffLoose=1.0x1",
+      "ItmBatteryDrill01=1.0x3",
+      "ItmBatteryWelder01=1.0x3",
+      "ItmBattery04=1.0x2",
+      "ItmBatteryDisp01=1.0x10-20",
+      "ItmBattery03=1.0x3-5",
+      "ItmBattery02cLoose=1.0x6",
+
+
+      "--ADD--",
+      "ItmToolLighter01=1.0x3-5",
+      "ItmToolCrowbar01=1.0x3",
+      "ItmToolScrewDriver01=1.0x3",
+      "ItmToolHacksaw01=1.0x3",
+
+      "ItmToolSolderingIron01New=1.0x3",
+      "ItmToolDrill01New=1.0x3",
+      "ItmToolGrinder02New=1.0x3",     
+      "ItmToolWelderGott01New=1.0x1-2",
+
+
+      "ItmToolWelder01New=1.0x3",
+		  "ItmToolDrillHarv01New=1.0x1-2",
+		  "ItmToolGrinderHarv01New=1.0x1-2",
+		  "ItmToolSolderingIronHarv01New=1.0x1-2",
+
+      "ItmToolLaserTorch01New=1.0x1-2",
+
+		  "ItmToolWelderElahi01New=1.0x1-2",
+		  "ItmToolDrillElahi01New=1.0x1-2",
+		  "ItmToolGrinderElahi01New=1.0x1-2",
+		  "ItmToolSolderingIronElahi01New=1.0x1-2",
+		  
+	  	"ItmChargerBattElahi01Loose=1.0x1",
+      "ItmChargerBattDrill01OffLoose=1.0x1-2",
+      "ItmChargerBattWelder01OffLoose=1.0x1-2",
+      "ItmChargerBattery04OffLoose=1.0x1",
+      "ItmBatteryDrill01=1.0x3",
+      "ItmBatteryWelder01=1.0x3",
+      "ItmBattery04=1.0x2",
+      "ItmBatteryDisp01=1.0x10-20",
+      "ItmBattery03=1.0x3-5",
+      "ItmBattery02cLoose=1.0x6",
+      "ItmBatteryElahi01=1.0x2-4"
       ]
     },
 	
